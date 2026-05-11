@@ -1,12 +1,10 @@
 [gd_scene format=3 uid="uid://bweqymn0dtv0i"]
 
 [ext_resource type="Script" uid="uid://cynxui5iprckb" path="res://scripts/planet.gd" id="1_mtr83"]
-[ext_resource type="Texture2D" uid="uid://cshui41024u22" path="res://backgrounds/obama.jpg" id="2_a75xc"]
 [ext_resource type="PackedScene" uid="uid://dqjg2rn03jav" path="res://plot.tscn" id="2_mtr83"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a75xc"]
 shading_mode = 0
-albedo_texture = ExtResource("2_a75xc")
 
 [sub_resource type="SphereMesh" id="SphereMesh_mtr83"]
 material = SubResource("StandardMaterial3D_a75xc")
@@ -17,7 +15,7 @@ height = 20.0
 [node name="Planet" type="Node3D" unique_id=190085126]
 script = ExtResource("1_mtr83")
 
-[node name="Skybox" type="MeshInstance3D" parent="." unique_id=869244312]
+[node name="Skysphere" type="MeshInstance3D" parent="." unique_id=869244312]
 mesh = SubResource("SphereMesh_mtr83")
 
 [node name="Plots" type="Node3D" parent="." unique_id=392643573]

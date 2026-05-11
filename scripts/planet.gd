@@ -1,6 +1,11 @@
 extends Node3D
 
-@onready var plots = get_node("Plots")
+@onready var _plots = get_node("Plots")
+@onready var _skysphere : MeshInstance3D = get_node("Skysphere")
+
+func set_skysphere(texture : Texture2D) -> void:
+	_skysphere.mesh.material.albedo_texture = texture
+
 
 # sets the color of the plots, and thus the planet
 func set_color(color : Color) -> void:
@@ -9,7 +14,7 @@ func set_color(color : Color) -> void:
 	material.albedo_color = color
 	
 	# set each child
-	for child : CSGPolygon3D in plots.get_children():
+	for child : CSGPolygon3D in _plots.get_children():
 		child.set_material(material)
 
 
