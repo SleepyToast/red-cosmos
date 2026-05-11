@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dqjg2rn03jav"]
 
-[node name="CSGPolygon3D" type="CSGPolygon3D" unique_id=1995584531]
+[node name="Plot" type="CSGPolygon3D" unique_id=1995584531]
 polygon = PackedVector2Array(-1.806, -3.132, 1.809, -3.132, 0, 0)
 depth = 0.01
 
