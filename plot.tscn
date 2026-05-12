@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dqjg2rn03jav"]
+
+[ext_resource type="Script" uid="uid://cx6s73cbfo6gx" path="res://scripts/plot.gd" id="1_r8nw5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ticr0"]
+
+[node name="Plot" type="CSGPolygon3D" unique_id=1995584531]
+polygon = PackedVector2Array(-1.806, -3.132, 1.809, -3.132, 0, 0)
+depth = 0.01
+material = SubResource("StandardMaterial3D_ticr0")
+script = ExtResource("1_r8nw5")
+
+[node name="Placeholder" type="Node3D" parent="." unique_id=1965438379]
+transform = Transform3D(0.5, 0, 0, 0, -2.1855694e-08, -0.5, 0, 0.5, -2.1855694e-08, 0, -2.088, 0)
