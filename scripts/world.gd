@@ -6,3 +6,5 @@ extends Node3D
 func _ready() -> void:
 	planet.set_color(Color("b13e53"))
 	planet.set_skysphere(load("res://backgrounds/white_star.png"))
+	
+	

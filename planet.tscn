@@ -20,62 +20,62 @@ mesh = SubResource("SphereMesh_mtr83")
 
 [node name="Plots" type="Node3D" parent="." unique_id=392643573]
 
-[node name="Plot_0" parent="Plots" unique_id=1075253423 instance=ExtResource("2_mtr83")]
+[node name="Plot_0" parent="Plots" unique_id=1995584531 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(1, 0, 0, 0, 0.6073758, 0.7944146, 0, -0.7944146, 0.6073758, 0, 3.387, 0)
 
-[node name="Plot_1" parent="Plots" unique_id=1251677924 instance=ExtResource("2_mtr83")]
+[node name="Plot_1" parent="Plots" unique_id=554120464 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.30911657, -0.75550735, 0.577629, 0, 0.6073758, 0.7944146, -0.95102406, -0.24556673, 0.18774995, 0, 3.387, 0)
 
-[node name="Plot_2" parent="Plots" unique_id=2101553478 instance=ExtResource("2_mtr83")]
+[node name="Plot_2" parent="Plots" unique_id=975316095 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.80901694, -0.4669451, 0.3570065, 0, 0.6073758, 0.7944146, -0.5877851, 0.64269495, -0.4913774, 0, 3.387, 0)
 
-[node name="Plot_3" parent="Plots" unique_id=1333296547 instance=ExtResource("2_mtr83")]
+[node name="Plot_3" parent="Plots" unique_id=1832926260 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.8090169, 0.46694526, -0.3570066, 0, 0.6073758, 0.7944146, 0.5877853, 0.64269483, -0.49137732, 0, 3.387, 0)
 
-[node name="Plot_4" parent="Plots" unique_id=1318756631 instance=ExtResource("2_mtr83")]
+[node name="Plot_4" parent="Plots" unique_id=274115527 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.30901694, 0.7555331, -0.5776487, 0, 0.6073758, 0.7944145, 0.9510564, -0.24548757, 0.18768942, 0, 3.387, 0)
 
-[node name="Plot_5" parent="Plots" unique_id=1104035942 instance=ExtResource("2_mtr83")]
+[node name="Plot_5" parent="Plots" unique_id=1926291833 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.8090171, 0.110140115, 0.5773739, -1.7329705e-07, 0.9822871, -0.1873813, -0.5877853, 0.15159458, 0.7946871, 1.812, 1.491, 2.493)
 
-[node name="Plot_6" parent="Plots" unique_id=1573227018 instance=ExtResource("2_mtr83")]
+[node name="Plot_6" parent="Plots" unique_id=888642823 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.30901703, 0.1782102, 0.9342107, 8.587428e-08, -0.9822871, 0.1873813, 0.95105666, 0.057904087, 0.30354342, 2.931, -1.59, 0.951)
 
-[node name="Plot_7" parent="Plots" unique_id=1995584531 instance=ExtResource("2_mtr83")]
+[node name="Plot_7" parent="Plots" unique_id=358809200 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.30838618, 0.17824854, 0.9344118, -1.7329705e-07, 0.9822871, -0.1873813, -0.9512614, -0.057785966, -0.30292377, 2.931, 1.491, -0.951)
 
-[node name="Plot_8" parent="Plots" unique_id=1445155600 instance=ExtResource("2_mtr83")]
+[node name="Plot_8" parent="Plots" unique_id=1981874724 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.8086271, 0.110240564, 0.5779009, 8.587428e-08, -0.9822871, 0.1873813, 0.5883218, -0.15152155, -0.794304, 1.812, -1.59, -2.49)
 
-[node name="Plot_9" parent="Plots" unique_id=1918850335 instance=ExtResource("2_mtr83")]
+[node name="Plot_9" parent="Plots" unique_id=642010111 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-1.0000001, -1.8626451e-07, -5.9604645e-08, -1.7329705e-07, 0.9822871, -0.1873813, 5.9604645e-08, -0.18738133, -0.9822873, 0, 1.491, -3.081)
 
-[node name="Plot_10" parent="Plots" unique_id=2111082274 instance=ExtResource("2_mtr83")]
+[node name="Plot_10" parent="Plots" unique_id=2024427382 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.80901706, -0.110139936, -0.5773741, 8.587428e-08, -0.9822871, 0.1873813, -0.5877854, -0.15159471, -0.79468703, -1.812, -1.59, -2.493)
 
-[node name="Plot_11" parent="Plots" unique_id=1532391075 instance=ExtResource("2_mtr83")]
+[node name="Plot_11" parent="Plots" unique_id=2093067131 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.30901694, -0.17821029, -0.9342108, -1.7329705e-07, 0.9822871, -0.1873813, 0.9510567, -0.057903834, -0.30354336, -2.931, 1.491, -0.951)
 
-[node name="Plot_12" parent="Plots" unique_id=1758920943 instance=ExtResource("2_mtr83")]
+[node name="Plot_12" parent="Plots" unique_id=206894292 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.30901718, -0.17821024, -0.9342107, 8.587428e-08, -0.9822871, 0.1873813, -0.9510566, 0.057903957, 0.3035436, -2.931, -1.59, 0.951)
 
-[node name="Plot_13" parent="Plots" unique_id=1948011865 instance=ExtResource("2_mtr83")]
+[node name="Plot_13" parent="Plots" unique_id=1217601288 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.80901706, -0.11013986, -0.57737404, -1.7329705e-07, 0.9822871, -0.1873813, 0.5877854, 0.15159477, 0.79468703, -1.812, 1.491, 2.493)
 
-[node name="Plot_14" parent="Plots" unique_id=976686830 instance=ExtResource("2_mtr83")]
+[node name="Plot_14" parent="Plots" unique_id=743422219 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-1.0000001, -8.568168e-08, 0, 8.587428e-08, -0.9822871, 0.1873813, -2.9802322e-08, 0.18738131, 0.9822873, 0, -1.59, 3.081)
 
-[node name="Plot_15" parent="Plots" unique_id=942510929 instance=ExtResource("2_mtr83")]
+[node name="Plot_15" parent="Plots" unique_id=1461650621 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.809017, -0.4669452, 0.35700646, 8.742278e-08, -0.6073758, -0.7944146, 0.58778524, -0.64269483, 0.49137738, 0, -3.486, 0)
 
-[node name="Plot_16" parent="Plots" unique_id=1277774897 instance=ExtResource("2_mtr83")]
+[node name="Plot_16" parent="Plots" unique_id=801128537 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(-0.80907845, 0.4668777, -0.3569551, 2.7023829e-08, -0.60737586, -0.7944145, -0.5877005, -0.6427437, 0.49141476, 0, -3.486, 0)
 
-[node name="Plot_17" parent="Plots" unique_id=2090317829 instance=ExtResource("2_mtr83")]
+[node name="Plot_17" parent="Plots" unique_id=1494386849 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.30901706, 0.7555331, -0.57764876, -7.072651e-08, -0.60737586, -0.7944145, -0.95105636, 0.24548775, -0.18768948, 0, -3.486, 0)
 
-[node name="Plot_18" parent="Plots" unique_id=631259776 instance=ExtResource("2_mtr83")]
+[node name="Plot_18" parent="Plots" unique_id=144701939 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.99999994, -1.4901161e-07, 0, -7.07265e-08, -0.60737574, -0.79441464, 1.1920929e-07, 0.79441464, -0.6073758, 0, -3.486, 0)
 
-[node name="Plot_19" parent="Plots" unique_id=892304331 instance=ExtResource("2_mtr83")]
+[node name="Plot_19" parent="Plots" unique_id=658814380 groups=["plot"] instance=ExtResource("2_mtr83")]
 transform = Transform3D(0.309017, -0.75553316, 0.57764864, 2.7015119e-08, -0.60737574, -0.7944146, 0.9510564, 0.24548762, -0.18768942, 0, -3.486, 0)

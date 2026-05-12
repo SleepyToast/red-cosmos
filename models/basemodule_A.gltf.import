@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cplj16iyj7cwu"
-path="res://.godot/imported/landing_pad.glb-39b279980e54f14d463e03493141ce42.scn"
+uid="uid://dh2wos7qojfth"
+path="res://.godot/imported/basemodule_A.gltf-7ad815f9f3bdd3e2c9e8751003ab5c72.scn"
 
 [deps]
 
-source_file="res://models/landing_pad.glb"
-dest_files=["res://.godot/imported/landing_pad.glb-39b279980e54f14d463e03493141ce42.scn"]
+source_file="res://models/basemodule_A.gltf"
+dest_files=["res://.godot/imported/basemodule_A.gltf-7ad815f9f3bdd3e2c9e8751003ab5c72.scn"]
 
 [params]
 
