@@ -1,19 +1,24 @@
 extends CSGPolygon3D
+class_name Plot
 
 @onready var placeholder_node = get_node("Placeholder")
 
 enum Module {
+	empty,
+	landingpad,
 	farm,
 	drill
 }
 
 const _MODULE_MODEL_MAP = {
-	Module.farm :	preload("res://models/basemodule_E.gltf"),
-	Module.drill :	preload("res://models/drill_structure.gltf")
+	Module.empty : null,
+	Module.landingpad :	preload("res://models/landingpad_large.gltf"),
+	Module.farm :		preload("res://models/basemodule_E.gltf"),
+	Module.drill :		preload("res://models/drill_structure.gltf")
 }
 
 func _ready() -> void:
-	set_module(Module.drill)
+	set_module(Module.empty)
 
 
 func set_color(color : Color) -> void:
@@ -24,6 +29,8 @@ func set_module(module : Module) -> void:
 	# remove any child if it exists
 	if placeholder_node.get_child_count() != 0:
 		placeholder_node.get_child(0).queue_free()
+	
+	if module == Module.empty: return
 	
 	placeholder_node.add_child(_MODULE_MODEL_MAP[module].instantiate())
 	

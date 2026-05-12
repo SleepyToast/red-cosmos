@@ -2,6 +2,13 @@ extends Node3D
 
 @onready var _skysphere : MeshInstance3D = get_node("Skysphere")
 
+
+func _ready() -> void:
+	# set one of the plots to be the landingpad
+	var landingpad = get_tree().get_nodes_in_group("plot").pick_random()
+	landingpad.set_module(Plot.Module.landingpad)
+
+
 func set_skysphere(texture : Texture2D) -> void:
 	_skysphere.mesh.material.albedo_texture = texture
 
